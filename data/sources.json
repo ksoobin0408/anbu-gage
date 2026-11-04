@@ -1,0 +1,32 @@
+{
+  "population": {
+    "title": "독거노인 현황(연령별/동별)",
+    "publisher": "서울특별시",
+    "collection": "서울특별시 기본통계",
+    "year": 2025,
+    "unit": "명",
+    "age": "만 65세 이상",
+    "url": "https://stat.eseoul.go.kr/statHtml/statHtml.do?orgId=201&tblId=DT_201004_F030013",
+    "source_file": "독거노인현황(연령별_동별)_20260929161047.csv",
+    "note": "원본 2025년 합계·소계·계 열 사용. 분석 기준에 맞춰 동 이름 통합.",
+    "reference_file": "population_reference_2025.csv",
+    "verified_rows": 425
+  },
+  "formal_methodology": {
+    "source": "팀 공유 산출 설명·분포·기술통계 이미지",
+    "received": "2026-10-23",
+    "analysis_dong_count": 425,
+    "reported_median": 46.693903,
+    "median_precision": "공유 화면 표시값",
+    "institution_counts": {
+      "보건의료": 88,
+      "건강관리": 63,
+      "장기요양": 2621,
+      "일상돌봄": 70
+    },
+    "raw_data_year": null,
+    "final_aggregation_formula": null,
+    "dong_scores_provided": false,
+    "reference_directory": "data/formal_reference"
+  }
+}
