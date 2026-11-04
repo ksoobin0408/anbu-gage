@@ -846,7 +846,7 @@ if not st.session_state.get("app_started"):
     .st-key-landing-shell > [data-testid="stElementContainer"]:last-child {margin-top:auto;padding-top:26px;}
     .intro-orb {display:none;}
     .intro-copy {position:relative;isolation:isolate;display:flex;flex-direction:column;align-items:center;
-      box-sizing:border-box;width:min(100%,380px);min-width:0;padding:82px 8px 24px;text-align:center;word-break:keep-all;
+      box-sizing:border-box;width:min(100%,380px);min-width:0;margin-inline:auto;padding:82px 8px 24px;text-align:center;word-break:keep-all;
       transition:filter .36s,opacity .36s,transform .36s;}
     .intro-copy.intro-leaving {filter:blur(13px);opacity:0;transform:scale(1.025);}
     .intro-title {position:relative;isolation:isolate;display:block;width:max-content;max-width:100%;
